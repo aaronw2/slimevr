@@ -1,0 +1,2850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/aaronw/kicad/Projects/slimevr/slimevr.kicad_sch</source>
+    <date>Sun 27 Mar 2022 05:08:35 AM PDT</date>
+    <tool>Eeschema (6.0.4-26-gc44d31fcfb)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Slime VR Motion Tracker</title>
+        <company>Copyright © 2022 Aaron Williams</company>
+        <rev>0.97</rev>
+        <date>2022-03-20</date>
+        <source>slimevr.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/">
+      <title_block>
+        <title>Slime VR Motion Tracker</title>
+        <company>Aaron Williams</company>
+        <rev>0.9.5</rev>
+        <date>2022-02-22</date>
+        <source>USB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>10uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A106MP8NNNC</field>
+        <field name="SPN">1276-1871-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A106MP8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1871-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529"/>
+      <property name="DESC" value="10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006205ab6e</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006205a0c1</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062270dc5</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>10uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A106MP8NNNC</field>
+        <field name="SPN">1276-1871-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A106MP8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1871-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529"/>
+      <property name="DESC" value="10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062050146</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006204f1f5</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006217f698</tstamps>
+    </comp>
+    <comp ref="C107">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58903f44-c6ed-403a-89bc-fd609f8e8c32</tstamps>
+    </comp>
+    <comp ref="C108">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006204d302</tstamps>
+    </comp>
+    <comp ref="C109">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006206bc5b</tstamps>
+    </comp>
+    <comp ref="FB101">
+      <value>LI0603E470R-10</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">47 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0603 (1608 Metric) 500mA 100mOhm</field>
+        <field name="MANUFACTURER">Laird-Signal Integrity Products</field>
+        <field name="MFR">Laird-Signal Integrity Products</field>
+        <field name="MPN">LI0603E470R-10</field>
+        <field name="SPN">240-2557-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/laird-signal-integrity-products/LI0603E470R-10/1236413</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="MFR" value="Laird-Signal Integrity Products"/>
+      <property name="MPN" value="LI0603E470R-10"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="240-2557-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/laird-signal-integrity-products/LI0603E470R-10/1236413"/>
+      <property name="DESC" value="47 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0603 (1608 Metric) 500mA 100mOhm"/>
+      <property name="MANUFACTURER" value="Laird-Signal Integrity Products"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f52149b1-d1d4-4b80-9c05-4c43bfda57d9</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>External Motion</value>
+      <footprint>Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="DESC">Connector Header Surface Mount 5 position 0.079" (2.00mm)</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MFR">JST Sales America Inc.</field>
+        <field name="MPN">B5B-PH-SM4-TBT(LF)(SN)</field>
+        <field name="SPN">455-3362-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B5B-PH-SM4-TBT-LF-SN/9918859</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="JST Sales America Inc."/>
+      <property name="MPN" value="B5B-PH-SM4-TBT(LF)(SN)"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="455-3362-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B5B-PH-SM4-TBT-LF-SN/9918859"/>
+      <property name="DESC" value="Connector Header Surface Mount 5 position 0.079&quot; (2.00mm)"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062238a0f</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SPN">311-10.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-10.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062070515</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SPN">311-10.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-10.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006204e014</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SPN">311-10.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-10.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006206744c</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SPN">311-10.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-10.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062062e5b</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SPN">311-10.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-10.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c549e28-11c1-4d80-ba2b-8f5058415e47</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SPN">311-4.70KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-4.70KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"/>
+      <property name="DESC" value="4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006204571f</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SPN">311-10.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-10.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3525ae60-0fcf-42a9-a7f4-37577be2ee38</tstamps>
+    </comp>
+    <comp ref="R109">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SPN">311-4.70KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-4.70KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"/>
+      <property name="DESC" value="0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7193f944-358a-4f18-9bf1-50fe8fbf98a7</tstamps>
+    </comp>
+    <comp ref="R110">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SPN">311-4.70KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-4.70KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"/>
+      <property name="DESC" value="0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1749999-4932-44cf-8724-c68d7a4c2070</tstamps>
+    </comp>
+    <comp ref="R111">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SPN">311-10.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-10.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006204cc04</tstamps>
+    </comp>
+    <comp ref="R112">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SPN">311-10.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-10.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000620686b3</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>BNO085</value>
+      <footprint>Package_LGA:LGA-28_5.2x3.8mm_P0.5mm</footprint>
+      <datasheet>https://www.ceva-dsp.com/wp-content/uploads/2019/10/BNO080_085-Datasheet.pdf</datasheet>
+      <fields>
+        <field name="DESC">Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI, UART Output</field>
+        <field name="MANUFACTURER">CEVA Technologies, Inc.</field>
+        <field name="MFR">CEVA Technologies, Inc.</field>
+        <field name="MPN">BNO085</field>
+        <field name="SPN">1888-1006-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/ceva-technologies-inc/BNO085/9445940</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="BNO080" description="Intelligent 9-axis absolute orientation sensor, LGA-28"/>
+      <property name="MFR" value="CEVA Technologies, Inc."/>
+      <property name="MPN" value="BNO085"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1888-1006-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/ceva-technologies-inc/BNO085/9445940"/>
+      <property name="DESC" value="Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI, UART Output"/>
+      <property name="MANUFACTURER" value="CEVA Technologies, Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba5b5a27-fef3-48ac-b54c-413c05288114</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>ESP-WROOM-02</value>
+      <footprint>RF_Module:ESP-WROOM-02</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="DESC">WiFi 802.11b/g/n Transceiver Module 2.4GHz ~ 2.5GHz Integrated, Trace Surface Mount</field>
+        <field name="MANUFACTURER">Espressif Systems</field>
+        <field name="MFR">Espressif Systems</field>
+        <field name="MPN">ESP-WROOM-02D (4MB)</field>
+        <field name="SPN">1965-ESP-WROOM-02D(4MB)CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/espressif-systems/ESP-WROOM-02D-4MB/10259353</field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP-WROOM-02" description="Wi-Fi Module, ESP8266EX SoC, 32-bit, 802.11b/g/n, WPA/WPA2, 2.7-3.6V, SMD"/>
+      <property name="MFR" value="Espressif Systems"/>
+      <property name="MPN" value="ESP-WROOM-02D (4MB)"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1965-ESP-WROOM-02D(4MB)CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/espressif-systems/ESP-WROOM-02D-4MB/10259353"/>
+      <property name="DESC" value="WiFi 802.11b/g/n Transceiver Module 2.4GHz ~ 2.5GHz Integrated, Trace Surface Mount"/>
+      <property name="MANUFACTURER" value="Espressif Systems"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062043951</tstamps>
+    </comp>
+    <comp ref="Y101">
+      <value>OM-7604-C7</value>
+      <footprint>Aaron:OSC_OM-7604-C7</footprint>
+      <datasheet>32.768 kHz XO (Standard) CMOS Oscillator 1.2V ~ 5.5V Enable/Disable 4-SMD, No Lead</datasheet>
+      <fields>
+        <field name="DESC">32.768 kHz XO (Standard) CMOS Oscillator 1.2V ~ 5.5V Enable/Disable 4-SMD, No Lead</field>
+        <field name="MANUFACTURER">MICRO CRYSTAL</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.7 mm</field>
+        <field name="MFR">Micro Crystal AG</field>
+        <field name="MPN">OM-7604-C7-32.768KHZ-20PPM-TA-QC</field>
+        <field name="PARTREV">4.2/06.2019</field>
+        <field name="SPN">2195-OM-7604-C7-32.768KHZ-20PPM-TA-QCCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/micro-crystal-ag/OM-7604-C7-32-768KHZ-20PPM-TA-QC/10431069</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="Aaron" part="OM-7604-C7" description=""/>
+      <property name="MANUFACTURER" value="MICRO CRYSTAL"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.7 mm"/>
+      <property name="PARTREV" value="4.2/06.2019"/>
+      <property name="MFR" value="Micro Crystal AG"/>
+      <property name="MPN" value="OM-7604-C7-32.768KHZ-20PPM-TA-QC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="2195-OM-7604-C7-32.768KHZ-20PPM-TA-QCCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/micro-crystal-ag/OM-7604-C7-32-768KHZ-20PPM-TA-QC/10431069"/>
+      <property name="DESC" value="32.768 kHz XO (Standard) CMOS Oscillator 1.2V ~ 5.5V Enable/Disable 4-SMD, No Lead"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="slimevr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062166813</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>4.7uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A475KP8NNNC</field>
+        <field name="SPN">1276-1044-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DESC" value="4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A475KP8NNNC"/>
+      <property name="SPN" value="1276-1044-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>957cdc0e-a163-4786-b3c2-358800370f1e</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>00000000-0000-0000-0000-000061efc02e</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>2f0d6014-c9ea-4f40-ab67-7f3cc2610ba4</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>10uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A106MP8NNNC</field>
+        <field name="SPN">1276-1871-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A106MP8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1871-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529"/>
+      <property name="DESC" value="10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>d9eb8ba8-1196-414f-91ea-36f0666a8f79</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>4.7uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A475KP8NNNC</field>
+        <field name="SPN">1276-1044-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DESC" value="4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A475KP8NNNC"/>
+      <property name="SPN" value="1276-1044-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>d0dd1d2f-1301-4417-893e-c4c3cf17dd3f</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>c5beecf3-56d0-4d7c-ab68-30865e7dd20e</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>10uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A106MP8NNNC</field>
+        <field name="SPN">1276-1871-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A106MP8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1871-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529"/>
+      <property name="DESC" value="10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>2eba4797-9e45-4ade-ba95-611d03ef3607</tstamps>
+    </comp>
+    <comp ref="C208">
+      <value>4.7uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A475KP8NNNC</field>
+        <field name="SPN">1276-1044-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DESC" value="4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A475KP8NNNC"/>
+      <property name="SPN" value="1276-1044-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>84343f21-e238-4d05-b779-a12e30500e50</tstamps>
+    </comp>
+    <comp ref="C209">
+      <value>4.7uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Samsung Electro-Mechanics</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A475KP8NNNC</field>
+        <field name="SPN">1276-1044-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DESC" value="4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A475KP8NNNC"/>
+      <property name="SPN" value="1276-1044-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>2fed90ac-7d33-4499-a858-5fe8dadfdd95</tstamps>
+    </comp>
+    <comp ref="C210">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C104M3RAC7867</field>
+        <field name="SPN">399-C0603C104M3RAC7867CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="KEMET"/>
+      <property name="MPN" value="C0603C104M3RAC7867"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="399-C0603C104M3RAC7867CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/kemet/C0603C104M3RAC7867/416046"/>
+      <property name="DESC" value="0.1 µF ±20% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>ad9898f5-10b7-4009-83f6-1bc4d3a6c3c4</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>DSS12UTR</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="DESC">Diode Schottky 20 V 1A Surface Mount SOD-123FL</field>
+        <field name="MFR">SMC Diode Solutions</field>
+        <field name="MPN">DSS12UTR</field>
+        <field name="SPN">1655-1925-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/smc-diode-solutions/DSS12UTR/8341857</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MFR" value="SMC Diode Solutions"/>
+      <property name="MPN" value="DSS12UTR"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1655-1925-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/smc-diode-solutions/DSS12UTR/8341857"/>
+      <property name="DESC" value="Diode Schottky 20 V 1A Surface Mount SOD-123FL"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>2038223e-651a-4795-9844-28fb39653aea</tstamps>
+    </comp>
+    <comp ref="D202">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="MFR">Würth Elektronik</field>
+        <field name="MPN">150060VS55040</field>
+        <field name="SPN">732-12017-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS55040/8557182</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DESC" value="Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="MFR" value="Würth Elektronik"/>
+      <property name="MPN" value="150060VS55040"/>
+      <property name="SPN" value="732-12017-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS55040/8557182"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>2e34dad7-7e31-49ce-a002-039135f66348</tstamps>
+    </comp>
+    <comp ref="D203">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="MFR">Würth Elektronik</field>
+        <field name="MPN">150060BS55040</field>
+        <field name="SPN">732-12013-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060BS55040/8557178</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DESC" value="Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="MFR" value="Würth Elektronik"/>
+      <property name="MPN" value="150060BS55040"/>
+      <property name="SPN" value="732-12013-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060BS55040/8557178"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>338d7403-1c7c-417f-a4d2-f344b2337690</tstamps>
+    </comp>
+    <comp ref="D204">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">Red 630nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="MFR">Würth Elektronik</field>
+        <field name="MPN">150060SS55040</field>
+        <field name="SPN">732-12016-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060SS55040/8557181</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DESC" value="Red 630nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="MFR" value="Würth Elektronik"/>
+      <property name="MPN" value="150060SS55040"/>
+      <property name="SPN" value="732-12016-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060SS55040/8557181"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>ca3acd27-aeae-4a93-a185-739a19b7452c</tstamps>
+    </comp>
+    <comp ref="D205">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="MFR">Würth Elektronik</field>
+        <field name="MPN">150060BS55040</field>
+        <field name="SPN">732-12013-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060BS55040/8557178</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DESC" value="Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="MFR" value="Würth Elektronik"/>
+      <property name="MPN" value="150060BS55040"/>
+      <property name="SPN" value="732-12013-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060BS55040/8557178"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>bd83b3d0-475b-49ee-ad48-a0c984e77f2b</tstamps>
+    </comp>
+    <comp ref="D206">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="MFR">Würth Elektronik</field>
+        <field name="MPN">150060VS55040</field>
+        <field name="SPN">732-12017-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS55040/8557182</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DESC" value="Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="MFR" value="Würth Elektronik"/>
+      <property name="MPN" value="150060VS55040"/>
+      <property name="SPN" value="732-12017-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS55040/8557182"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>56599f3b-35c1-4ce6-b5e0-e20355b3460b</tstamps>
+    </comp>
+    <comp ref="D207">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">Red 630nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="MANUFACTURER">Würth Elektronik</field>
+        <field name="MFR">Würth Elektronik</field>
+        <field name="MPN">150060SS55040</field>
+        <field name="SPN">732-12016-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060SS55040/8557181</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DESC" value="Red 630nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="MANUFACTURER" value="Würth Elektronik"/>
+      <property name="MFR" value="Würth Elektronik"/>
+      <property name="MPN" value="150060SS55040"/>
+      <property name="SPN" value="732-12016-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060SS55040/8557181"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>d871c11e-9461-4938-b434-4c8bf75e1769</tstamps>
+    </comp>
+    <comp ref="FB201">
+      <value>LI0603E470R-10</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">47 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0603 (1608 Metric) 500mA 100mOhm</field>
+        <field name="MANUFACTURER">Laird-Signal Integrity Products</field>
+        <field name="MFR">Laird-Signal Integrity Products</field>
+        <field name="MPN">LI0603E470R-10</field>
+        <field name="SPN">240-2557-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/laird-signal-integrity-products/LI0603E470R-10/1236413</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="MFR" value="Laird-Signal Integrity Products"/>
+      <property name="MPN" value="LI0603E470R-10"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="240-2557-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/laird-signal-integrity-products/LI0603E470R-10/1236413"/>
+      <property name="DESC" value="47 Ohms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0603 (1608 Metric) 500mA 100mOhm"/>
+      <property name="MANUFACTURER" value="Laird-Signal Integrity Products"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>a90cff1c-5024-427c-ac44-278911433301</tstamps>
+    </comp>
+    <comp ref="J201">
+      <value>USB_C_Receptacle_USB2.0_GCT</value>
+      <footprint>Aaron:GCT_USB4105-GF-A</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Aaron" part="USB_C_Receptacle_USB2.0_GCT" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>0b9a4272-ae1e-47b0-9d1d-3d7f2d53a165</tstamps>
+    </comp>
+    <comp ref="J203">
+      <value>BAT_NO_THERM</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="DESC">Connector Header Surface Mount 2 position 0.079" (2.00mm)</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MFR">JST Sales America Inc.</field>
+        <field name="MPN">B2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="SPN">455-1734-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-SM4-TB-LF-SN/926641</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DESC" value="Connector Header Surface Mount 2 position 0.079&quot; (2.00mm)"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="MFR" value="JST Sales America Inc."/>
+      <property name="MPN" value="B2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="SPN" value="455-1734-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-SM4-TB-LF-SN/926641"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>21016b7d-a3f4-414a-ab7b-ebef7deb4708</tstamps>
+    </comp>
+    <comp ref="J204">
+      <value>BAT w/THERM</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="DESC">Connector Header Through Hole, Right Angle 3 position 0.049" (1.25mm)</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MFR">Molex</field>
+        <field name="MPN">0530480350</field>
+        <field name="SPN">0530480350-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/molex/0530480350/10125766</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="DESC" value="Connector Header Through Hole, Right Angle 3 position 0.049&quot; (1.25mm)"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="MFR" value="Molex"/>
+      <property name="MPN" value="0530480350"/>
+      <property name="SPN" value="0530480350-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/molex/0530480350/10125766"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>4295b3f3-9951-4222-8557-49a3c8e92518</tstamps>
+    </comp>
+    <comp ref="L201">
+      <value>1.5uH</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">DFE252010F-1R5M=P2</field>
+        <field name="SPN">490-13041-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/murata-electronics/DFE252010F-1R5M-P2/5812577</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="MFR" value="Murata Electronics"/>
+      <property name="MPN" value="DFE252010F-1R5M=P2"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="490-13041-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/murata-electronics/DFE252010F-1R5M-P2/5812577"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>5e85039e-7fbb-4790-9d6f-20f978268c42</tstamps>
+    </comp>
+    <comp ref="Q201">
+      <value>UMH3N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="UMH3N" description="0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>bccbd532-de9a-4cc7-a6d2-226d984088f2 ab871c3c-283b-4931-8d98-4643d144a4b0</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="SPN">311-5.10KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-5.10KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268"/>
+      <property name="DESC" value="5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>34ea5e4b-e883-43a6-aa3f-e2e2aed09006</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="SPN">311-5.10KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-5.10KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268"/>
+      <property name="DESC" value="5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>9ccf7bf5-a564-47e1-a7eb-2f21d9509e0e</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402FR-070RL</field>
+        <field name="SPN">311-0.0LRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0402FR-070RL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-0.0LRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>df76cb42-8292-4b0e-80a2-725c4a5377bf</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402FR-070RL</field>
+        <field name="SPN">311-0.0LRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0402FR-070RL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-0.0LRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>aa2837fe-435d-476a-a31d-41de673b8ca6</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402FR-070RL</field>
+        <field name="SPN">311-0.0LRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0402FR-070RL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-0.0LRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>b0b9bb99-f602-42a6-9143-b2ced8eceae9</tstamps>
+    </comp>
+    <comp ref="R206">
+      <value>47.5K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>91cfde91-c7ca-47db-8439-21f8724d4c1e</tstamps>
+    </comp>
+    <comp ref="R207">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SPN">311-1.00KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-1.00KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"/>
+      <property name="DESC" value="1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>caaaa888-e90c-4b8d-a6de-0f22fb1e93ad</tstamps>
+    </comp>
+    <comp ref="R208">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RC0603FR-07470RL</field>
+        <field name="SPN">311-470HRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-07470RL/727256</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DESC" value="470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07470RL"/>
+      <property name="SPN" value="311-470HRCT-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-07470RL/727256"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>4342ecae-8cfe-4ddc-8a46-4baf90ec5f1b</tstamps>
+    </comp>
+    <comp ref="R209">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RC0603FR-07470RL</field>
+        <field name="SPN">311-470HRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-07470RL/727256</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DESC" value="470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07470RL"/>
+      <property name="SPN" value="311-470HRCT-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-07470RL/727256"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>ae0cc505-2034-49f0-93df-f837df909870</tstamps>
+    </comp>
+    <comp ref="R210">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RC0603FR-07470RL</field>
+        <field name="SPN">311-470HRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-07470RL/727256</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DESC" value="470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-07470RL"/>
+      <property name="SPN" value="311-470HRCT-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-07470RL/727256"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>21109373-4991-49bb-a812-3e875e18ed64</tstamps>
+    </comp>
+    <comp ref="R211">
+      <value>22.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>81ca661e-687d-4a13-8add-9bfd89f47b2b</tstamps>
+    </comp>
+    <comp ref="R212">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SPN">311-1.00KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-1.00KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"/>
+      <property name="DESC" value="1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>7c33dff8-2206-4e87-8986-52d27770091b</tstamps>
+    </comp>
+    <comp ref="R213">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SPN">311-1.00KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-1.00KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"/>
+      <property name="DESC" value="1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>971d2439-168f-4881-b4b3-2a8bf26b01f9</tstamps>
+    </comp>
+    <comp ref="R214">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SPN">311-1.00KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-1.00KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"/>
+      <property name="DESC" value="1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>3f3588dc-0a02-47ee-b4b2-145c5f964f21</tstamps>
+    </comp>
+    <comp ref="R215">
+      <value>39K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">39 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0739KL</field>
+        <field name="SPN">311-39.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0739KL/727195</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0739KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-39.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0739KL/727195"/>
+      <property name="DESC" value="39 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>00000000-0000-0000-0000-000061f86e20</tstamps>
+    </comp>
+    <comp ref="R216">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SPN">311-1.00KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-1.00KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"/>
+      <property name="DESC" value="1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>9f694638-0182-4ce3-9f5d-f2d9e67e0f74</tstamps>
+    </comp>
+    <comp ref="R217">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402FR-070RL</field>
+        <field name="SPN">311-0.0LRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0402FR-070RL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-0.0LRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>d7684669-e7da-4dda-9a57-bc0b1a12e9db</tstamps>
+    </comp>
+    <comp ref="R218">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DESC">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="MANUFACTURER">YAGEO</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402FR-070RL</field>
+        <field name="SPN">311-0.0LRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0402FR-070RL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-0.0LRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0402FR-070RL/2827570"/>
+      <property name="DESC" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="MANUFACTURER" value="YAGEO"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>a9be5ff9-8e2c-4c08-9d48-162743173e45</tstamps>
+    </comp>
+    <comp ref="SW201">
+      <value>Power</value>
+      <footprint>Aaron:Panasonic_EVQPUL_EVQPUC</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic Electronic Components</field>
+        <field name="MFR">Panasonic Electronic Components</field>
+        <field name="MPN">EVQ-PUD02K</field>
+        <field name="SPN">P10850SCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-PUD02K/286337</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MFR" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="EVQ-PUD02K"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="P10850SCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-PUD02K/286337"/>
+      <property name="MANUFACTURER" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>6e621409-4781-4537-97c3-2ffd82009a19</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>CP2102N-Axx-xQFN28</value>
+      <footprint>Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">Silicon Labs</field>
+        <field name="MPN">CP2102N-A02-GQFN28R</field>
+        <field name="SPN">336-5890-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/silicon-labs/CP2102N-A02-GQFN28R/9863480</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CP2102N-Axx-xQFN28" description="USB to UART master bridge, QFN-28"/>
+      <property name="MFR" value="Silicon Labs"/>
+      <property name="MPN" value="CP2102N-A02-GQFN28R"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="336-5890-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/silicon-labs/CP2102N-A02-GQFN28R/9863480"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>e9ed8543-1b42-438a-81a7-6be1a2c67fa0</tstamps>
+    </comp>
+    <comp ref="U202">
+      <value>RT5750XXGJ5</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
+      <datasheet>https://www.richtek.com/assets/product_file/RT5750A=RT5750B/DS5750AB-00.pdf</datasheet>
+      <fields>
+        <field name="MFR">Richtek USA Inc.</field>
+        <field name="MPN">RT5750BHGJ5</field>
+        <field name="SPN">1028-RT5750BHGJ5CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/richtek-usa-inc/RT5750BHGJ5/13180171</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="RT5750XXGJ5" description="1.5MHz 1A Step-Down DC-DC Buck Converter, TSOT-23-6"/>
+      <property name="MFR" value="Richtek USA Inc."/>
+      <property name="MPN" value="RT5750BHGJ5"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1028-RT5750BHGJ5CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/richtek-usa-inc/RT5750BHGJ5/13180171"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>77f98fc1-9153-426f-b9a6-adb9ed289e56</tstamps>
+    </comp>
+    <comp ref="U203">
+      <value>MAX16054AZTT</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX16054.pdf</datasheet>
+      <fields>
+        <field name="DESC">PDA's, Portable Audio/Video, Smartphones Interface TSOT-23-6</field>
+        <field name="MANUFACTURER">Analog Devices Inc./Maxim Integrated</field>
+        <field name="MFR">Analog Devices Inc./Maxim Integrated</field>
+        <field name="MPN">MAX16054AZT+T</field>
+        <field name="SPN">MAX16054AZT+TCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX16054AZT-T/1938114</field>
+      </fields>
+      <libsource lib="Aaron" part="MAX16054AZTT" description="Push button power switch controller"/>
+      <property name="DESC" value="PDA's, Portable Audio/Video, Smartphones Interface TSOT-23-6"/>
+      <property name="MANUFACTURER" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="MFR" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="MPN" value="MAX16054AZT+T"/>
+      <property name="SPN" value="MAX16054AZT+TCT-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX16054AZT-T/1938114"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>1c8b41c3-9fef-47af-8647-f9a7a5984b9d</tstamps>
+    </comp>
+    <comp ref="U204">
+      <value>MCP73837</value>
+      <footprint>Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20002071C.pdf</datasheet>
+      <fields>
+        <field name="MFR">Microchip Technology</field>
+        <field name="MPN">MCP73837-FJI/MF</field>
+        <field name="SPN">MCP73837-FJI/MF-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/microchip-technology/MCP73837-FJI-MF/1874177</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73837" description="Li-Ion/Li-Po charge management controller with AC adapter or USB port selection"/>
+      <property name="MFR" value="Microchip Technology"/>
+      <property name="MPN" value="MCP73837-FJI/MF"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="MCP73837-FJI/MF-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP73837-FJI-MF/1874177"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>502041bc-cdaf-4879-8f4f-ae37713fca0e</tstamps>
+    </comp>
+    <comp ref="U205">
+      <value>USBUF02W6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323-6L</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/nuf2221w1t2-d.pdf</datasheet>
+      <libsource lib="Interface_USB" part="USBUF02W6" description="USB Line Termination RC(PI) 22 OHM/42PF SMD"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>6b13c91a-adae-4197-a4c4-9cd045accc0d</tstamps>
+    </comp>
+    <comp ref="U206">
+      <value>NC7SP38P5X</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/nc7sp38-d.pdf</datasheet>
+      <libsource lib="Aaron" part="NC7SP38P5X" description="Open Drain NAND Gate, Low-Voltage CMOS"/>
+      <property name="Sheetname" value="USB and  Power"/>
+      <property name="Sheetfile" value="USB.kicad_sch"/>
+      <sheetpath names="/USB and  Power/" tstamps="/00000000-0000-0000-0000-000061ddf5dc/"/>
+      <tstamps>bd75ec32-16fe-4923-a9db-027bb89636eb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Aaron" part="MAX16054AZTT">
+      <description>Push button power switch controller</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX16054.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX16054AZTT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX16054.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CLEAR" type="bidirectional"/>
+        <pin num="4" name="~{OUT}" type="output"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Aaron" part="NC7SP38P5X">
+      <description>Open Drain NAND Gate, Low-Voltage CMOS</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/nc7sp38-d.pdf</docs>
+      <footprints>
+        <fp>SSOP*</fp>
+        <fp>VSSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NC7SP38P5X</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/nc7sp38-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="open_collector"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Aaron" part="OM-7604-C7">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">OM-7604-C7</field>
+        <field name="Footprint">Aaron:OSC_OM-7604-C7</field>
+        <field name="MANUFACTURER">MICRO CRYSTAL</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.7 mm</field>
+        <field name="PARTREV">4.2/06.2019</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKOUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CLKOE" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Aaron" part="USB_C_Receptacle_USB2.0_GCT">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_GCT</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1_B12" name="GND" type="power_in"/>
+        <pin num="A4_B9" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="B1_A12" name="GND" type="power_in"/>
+        <pin num="B4_A9" name="VBUS" type="power_in"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73837">
+      <description>Li-Ion/Li-Po charge management controller with AC adapter or USB port selection</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/20002071C.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73837</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20002071C.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VAC" type="power_in"/>
+        <pin num="2" name="VUSB" type="power_in"/>
+        <pin num="3" name="STAT1" type="output"/>
+        <pin num="4" name="STAT2" type="open_collector"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="PROG1" type="input"/>
+        <pin num="7" name="PROG2" type="input"/>
+        <pin num="8" name="~{PG}" type="input"/>
+        <pin num="9" name="THERM" type="input"/>
+        <pin num="10" name="VBAT" type="power_out"/>
+        <pin num="11" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2102N-Axx-xQFN28">
+      <description>USB to UART master bridge, QFN-28</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*5x5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-Axx-xQFN28</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{DCD}" type="input"/>
+        <pin num="2" name="~{RI}/CLK" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="D-" type="bidirectional"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VREGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~{RST}" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="~{SUSPEND}" type="output"/>
+        <pin num="12" name="SUSPEND" type="output"/>
+        <pin num="13" name="CHREN" type="output"/>
+        <pin num="14" name="CHR1" type="output"/>
+        <pin num="15" name="CHR0" type="output"/>
+        <pin num="16" name="~{WAKEUP}/GPIO.3" type="bidirectional"/>
+        <pin num="17" name="RS485/GPIO.2" type="bidirectional"/>
+        <pin num="18" name="~{RXT}/GPIO.1" type="bidirectional"/>
+        <pin num="19" name="~{TXT}/GPIO.0" type="bidirectional"/>
+        <pin num="20" name="GPIO.6" type="bidirectional"/>
+        <pin num="21" name="GPIO.5" type="bidirectional"/>
+        <pin num="22" name="GPIO.4" type="bidirectional"/>
+        <pin num="23" name="~{CTS}" type="input"/>
+        <pin num="24" name="~{RTS}" type="output"/>
+        <pin num="25" name="RXD" type="input"/>
+        <pin num="26" name="TXD" type="output"/>
+        <pin num="27" name="~{DSR}" type="input"/>
+        <pin num="28" name="~{DTR}" type="output"/>
+        <pin num="29" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="USBUF02W6">
+      <description>USB Line Termination RC(PI) 22 OHM/42PF SMD</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/nuf2221w1t2-d.pdf</docs>
+      <fields>
+        <field name="Reference">U205</field>
+        <field name="Value">USBUF02W6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323-6L</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/nuf2221w1t2-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D2" type="bidirectional"/>
+        <pin num="4" name="D3" type="bidirectional"/>
+        <pin num="5" name="V3.3" type="power_in"/>
+        <pin num="6" name="D4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_4_Bridged23">
+      <description>Solder Jumper, 4-pole, pins 2 + 3 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP202</field>
+        <field name="Value">SolderJumper_4_Bridged23</field>
+        <field name="Footprint">Jumper:SolderJumper-4_P1.3mm_Bridged23_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP-WROOM-02">
+      <description>Wi-Fi Module, ESP8266EX SoC, 32-bit, 802.11b/g/n, WPA/WPA2, 2.7-3.6V, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP?WROOM?02*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-WROOM-02</field>
+        <field name="Footprint">RF_Module:ESP-WROOM-02</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IO14" type="bidirectional"/>
+        <pin num="4" name="IO12" type="bidirectional"/>
+        <pin num="5" name="IO13" type="bidirectional"/>
+        <pin num="6" name="IO15" type="bidirectional"/>
+        <pin num="7" name="IO2" type="bidirectional"/>
+        <pin num="8" name="IO0" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="IO4" type="bidirectional"/>
+        <pin num="11" name="RXD" type="bidirectional"/>
+        <pin num="12" name="TXD" type="bidirectional"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="IO5" type="bidirectional"/>
+        <pin num="15" name="RST" type="input"/>
+        <pin num="16" name="TOUT" type="input"/>
+        <pin num="17" name="IO16" type="bidirectional"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="RT5750XXGJ5">
+      <description>1.5MHz 1A Step-Down DC-DC Buck Converter, TSOT-23-6</description>
+      <docs>https://www.richtek.com/assets/product_file/RT5750A=RT5750B/DS5750AB-00.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RT5750XXGJ5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-5</field>
+        <field name="Datasheet">https://www.richtek.com/assets/product_file/RT5750A=RT5750B/DS5750AB-00.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SW" type="power_out"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="BNO080">
+      <description>Intelligent 9-axis absolute orientation sensor, LGA-28</description>
+      <docs>https://www.ceva-dsp.com/wp-content/uploads/2019/10/BNO080_085-Datasheet.pdf</docs>
+      <footprints>
+        <fp>LGA*5.2x3.8mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U301</field>
+        <field name="Value">BNO080</field>
+        <field name="Footprint">Package_LGA:LGA-28_5.2x3.8mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ceva-dsp.com/wp-content/uploads/2019/10/BNO080_085-Datasheet.pdf</field>
+        <field name="MFR">CEVA Technologies, Inc.</field>
+        <field name="MPN">BNO085</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">1888-1006-1-ND</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/ceva-technologies-inc/BNO085/9445940</field>
+        <field name="DESC">Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI, UART Output</field>
+        <field name="MANUFACTURER">CEVA Technologies, Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="no_connect"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="~{BOOT_LOAD_PIN}" type="input"/>
+        <pin num="5" name="PS1" type="input"/>
+        <pin num="6" name="PS0" type="input"/>
+        <pin num="7" name="PIN7" type="no_connect"/>
+        <pin num="8" name="PIN8" type="no_connect"/>
+        <pin num="9" name="CAP" type="passive"/>
+        <pin num="10" name="BL_IND" type="input"/>
+        <pin num="11" name="~{RESET}" type="input"/>
+        <pin num="12" name="NC" type="no_connect"/>
+        <pin num="13" name="NC" type="no_connect"/>
+        <pin num="14" name="~{INT}" type="open_collector"/>
+        <pin num="15" name="H_SCL" type="bidirectional"/>
+        <pin num="16" name="H_SDA" type="bidirectional"/>
+        <pin num="17" name="COM3" type="input"/>
+        <pin num="18" name="COM2" type="bidirectional"/>
+        <pin num="19" name="COM1" type="bidirectional"/>
+        <pin num="20" name="COM0" type="bidirectional"/>
+        <pin num="21" name="NC" type="no_connect"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="NC" type="no_connect"/>
+        <pin num="24" name="NC" type="no_connect"/>
+        <pin num="25" name="GNDIO" type="power_in"/>
+        <pin num="26" name="XOUT32" type="passive"/>
+        <pin num="27" name="XIN32" type="input"/>
+        <pin num="28" name="VDDIO" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="UMH3N">
+      <description>0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363</description>
+      <docs>http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">UMH3N</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Aaron">
+      <uri>/home/aaronw/kicad/library/aaron/Aaron.kicad_sym</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>/home/aaronw/.local/share/kicad/symbols//RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Sensor_Motion.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BNO_PWR">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="FB101" pin="2" pintype="passive"/>
+      <node ref="U101" pin="10" pinfunction="BL_IND" pintype="input"/>
+      <node ref="U101" pin="26" pinfunction="XOUT32" pintype="passive"/>
+      <node ref="U101" pin="28" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U101" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/B_CLK">
+      <node ref="U101" pin="27" pinfunction="XIN32" pintype="input"/>
+      <node ref="Y101" pin="1" pinfunction="CLKOUT" pintype="output"/>
+    </net>
+    <net code="3" name="/CAP">
+      <node ref="C109" pin="1" pintype="passive"/>
+      <node ref="U101" pin="9" pinfunction="CAP" pintype="passive"/>
+    </net>
+    <net code="4" name="/SCL">
+      <node ref="J103" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U101" pin="19" pinfunction="COM1" pintype="bidirectional"/>
+      <node ref="U102" pin="14" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/SDA">
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+      <node ref="U101" pin="20" pinfunction="COM0" pintype="bidirectional"/>
+      <node ref="U102" pin="10" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/USB and  Power/BATT+">
+      <node ref="C209" pin="1" pintype="passive"/>
+      <node ref="J203" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J204" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U204" pin="10" pinfunction="VBAT" pintype="power_out"/>
+    </net>
+    <net code="7" name="/USB and  Power/CC1">
+      <node ref="J201" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/USB and  Power/CC2">
+      <node ref="J201" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/USB and  Power/CP2102PWR">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="FB201" pin="2" pintype="passive"/>
+      <node ref="R206" pin="1" pintype="passive"/>
+      <node ref="U201" pin="7" pinfunction="VREGIN" pintype="power_in"/>
+    </net>
+    <net code="10" name="/USB and  Power/CP2102_VIO">
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C208" pin="1" pintype="passive"/>
+      <node ref="R207" pin="2" pintype="passive"/>
+      <node ref="U201" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="11" name="/USB and  Power/DTR">
+      <node ref="Q201" pin="1" pinfunction="E1" pintype="passive"/>
+      <node ref="Q201" pin="5" pinfunction="B2" pintype="input"/>
+      <node ref="U201" pin="28" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="12" name="/USB and  Power/D_N">
+      <node ref="J201" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J201" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U205" pin="4" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/USB and  Power/D_P">
+      <node ref="J201" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J201" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U205" pin="6" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/USB and  Power/D_R_N">
+      <node ref="U201" pin="5" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U205" pin="3" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/USB and  Power/D_R_P">
+      <node ref="U201" pin="4" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U205" pin="1" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/USB and  Power/FB">
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="R215" pin="2" pintype="passive"/>
+      <node ref="U202" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="17" name="/USB and  Power/PBTN">
+      <node ref="SW201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U203" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="18" name="/USB and  Power/PG_LED">
+      <node ref="D205" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R212" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/USB and  Power/PWR_IN">
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="U202" pin="4" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U203" pin="6" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="20" name="/USB and  Power/RTS">
+      <node ref="Q201" pin="2" pinfunction="B1" pintype="input"/>
+      <node ref="Q201" pin="4" pinfunction="E2" pintype="passive"/>
+      <node ref="U201" pin="24" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="21" name="/USB and  Power/RX_LED">
+      <node ref="D204" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U201" pin="18" pinfunction="~{RXT}/GPIO.1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/USB and  Power/STAT1">
+      <node ref="R213" pin="1" pintype="passive"/>
+      <node ref="U204" pin="3" pinfunction="STAT1" pintype="output"/>
+    </net>
+    <net code="23" name="/USB and  Power/STAT1_LED">
+      <node ref="D207" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R213" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/USB and  Power/STAT2">
+      <node ref="R214" pin="1" pintype="passive"/>
+      <node ref="U204" pin="4" pinfunction="STAT2" pintype="open_collector"/>
+    </net>
+    <net code="25" name="/USB and  Power/STAT2_LED">
+      <node ref="D206" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R214" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/USB and  Power/STB">
+      <node ref="U202" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U203" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="27" name="/USB and  Power/SW">
+      <node ref="L201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U202" pin="3" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="28" name="/USB and  Power/THERM">
+      <node ref="U204" pin="9" pinfunction="THERM" pintype="input"/>
+    </net>
+    <net code="29" name="/USB and  Power/THERM_CONN">
+      <node ref="J204" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="31" name="/USB and  Power/TX_LED">
+      <node ref="D203" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U201" pin="19" pinfunction="~{TXT}/GPIO.0" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/USB and  Power/USB_CHG500MA">
+      <node ref="U201" pin="15" pinfunction="CHR0" pintype="output"/>
+      <node ref="U204" pin="7" pinfunction="PROG2" pintype="input"/>
+    </net>
+    <net code="33" name="/USB and  Power/USB_CHGEN">
+      <node ref="U201" pin="13" pinfunction="CHREN" pintype="output"/>
+      <node ref="U206" pin="1" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="34" name="/USB and  Power/~{PG}">
+      <node ref="R212" pin="1" pintype="passive"/>
+      <node ref="U204" pin="8" pinfunction="~{PG}" pintype="input"/>
+    </net>
+    <net code="35" name="/~{BNO_BOOT}">
+      <node ref="R104" pin="2" pintype="passive"/>
+      <node ref="U101" pin="4" pinfunction="~{BOOT_LOAD_PIN}" pintype="input"/>
+      <node ref="U102" pin="7" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/~{BNO_RESET}">
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="U101" pin="11" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U102" pin="5" pinfunction="IO13" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/~{INT0}">
+      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="U101" pin="14" pinfunction="~{INT}" pintype="open_collector"/>
+      <node ref="U102" pin="3" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/~{INT1}">
+      <node ref="J103" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="U102" pin="4" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/~{RST}">
+      <node ref="C108" pin="1" pintype="passive"/>
+      <node ref="R111" pin="2" pintype="passive"/>
+      <node ref="U102" pin="15" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="40" name="CHG_EN">
+      <node ref="R218" pin="1" pintype="passive"/>
+      <node ref="U102" pin="17" pinfunction="IO16" pintype="bidirectional"/>
+      <node ref="U206" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="41" name="GND">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C107" pin="2" pintype="passive"/>
+      <node ref="C108" pin="2" pintype="passive"/>
+      <node ref="C109" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="C208" pin="2" pintype="passive"/>
+      <node ref="C209" pin="2" pintype="passive"/>
+      <node ref="C210" pin="2" pintype="passive"/>
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D202" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J103" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J201" pin="A1_B12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J201" pin="B1_A12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J201" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J201" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J201" pin="S3" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J201" pin="S4" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J203" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J204" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R112" pin="2" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="R211" pin="2" pintype="passive"/>
+      <node ref="R217" pin="2" pintype="passive"/>
+      <node ref="SW201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="25" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U101" pin="5" pinfunction="PS1" pintype="input"/>
+      <node ref="U101" pin="6" pinfunction="PS0" pintype="input"/>
+      <node ref="U102" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U102" pin="18" pinfunction="GND" pintype="passive"/>
+      <node ref="U102" pin="19" pinfunction="GND" pintype="passive"/>
+      <node ref="U102" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U201" pin="29" pinfunction="GND" pintype="passive"/>
+      <node ref="U201" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U202" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U203" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U204" pin="11" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U204" pin="5" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U205" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U206" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y101" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="42" name="IO0">
+      <node ref="Q201" pin="6" pinfunction="C1" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="U102" pin="8" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(D202-Pad2)">
+      <node ref="D202" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R208" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D203-Pad2)">
+      <node ref="D203" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R209" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D204-Pad2)">
+      <node ref="D204" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R210" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(JP202-Pad4)">
+      <node ref="R204" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(R103-Pad2)">
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="U101" pin="18" pinfunction="COM2" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="Net-(R109-Pad2)">
+      <node ref="R109" pin="2" pintype="passive"/>
+      <node ref="U101" pin="15" pinfunction="H_SCL" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(R110-Pad2)">
+      <node ref="R110" pin="2" pintype="passive"/>
+      <node ref="U101" pin="16" pinfunction="H_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="Net-(R112-Pad1)">
+      <node ref="R112" pin="1" pintype="passive"/>
+      <node ref="U101" pin="17" pinfunction="COM3" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(R206-Pad2)">
+      <node ref="R206" pin="2" pintype="passive"/>
+      <node ref="R211" pin="1" pintype="passive"/>
+      <node ref="U201" pin="8" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(R207-Pad1)">
+      <node ref="R207" pin="1" pintype="passive"/>
+      <node ref="U201" pin="9" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(R216-Pad1)">
+      <node ref="R216" pin="1" pintype="passive"/>
+      <node ref="U206" pin="4" pinfunction="Y" pintype="open_collector"/>
+    </net>
+    <net code="54" name="Net-(R216-Pad2)">
+      <node ref="R216" pin="2" pintype="passive"/>
+      <node ref="U204" pin="6" pinfunction="PROG1" pintype="input"/>
+    </net>
+    <net code="55" name="RXD">
+      <node ref="U102" pin="12" pinfunction="TXD" pintype="bidirectional"/>
+      <node ref="U201" pin="25" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="56" name="SHUTDOWN">
+      <node ref="R217" pin="1" pintype="passive"/>
+      <node ref="U102" pin="6" pinfunction="IO15" pintype="bidirectional"/>
+      <node ref="U203" pin="3" pinfunction="CLEAR" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="TXD">
+      <node ref="U102" pin="11" pinfunction="RXD" pintype="bidirectional"/>
+      <node ref="U201" pin="26" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="58" name="VBUS">
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D205" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D206" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D207" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FB201" pin="1" pintype="passive"/>
+      <node ref="J201" pin="A4_B9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J201" pin="B4_A9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="R209" pin="2" pintype="passive"/>
+      <node ref="R210" pin="2" pintype="passive"/>
+      <node ref="U204" pin="2" pinfunction="VUSB" pintype="power_in"/>
+    </net>
+    <net code="59" name="VCC">
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="C210" pin="1" pintype="passive"/>
+      <node ref="FB101" pin="1" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="R111" pin="1" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="R208" pin="2" pintype="passive"/>
+      <node ref="R215" pin="1" pintype="passive"/>
+      <node ref="R218" pin="2" pintype="passive"/>
+      <node ref="U102" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U205" pin="5" pinfunction="V3.3" pintype="power_in"/>
+      <node ref="U206" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Y101" pin="3" pinfunction="CLKOE" pintype="input"/>
+      <node ref="Y101" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="60" name="unconnected-(J201-PadA8)">
+      <node ref="J201" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J201-PadB8)">
+      <node ref="J201" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U101-Pad1)">
+      <node ref="U101" pin="1" pinfunction="PIN1" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U101-Pad7)">
+      <node ref="U101" pin="7" pinfunction="PIN7" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U101-Pad8)">
+      <node ref="U101" pin="8" pinfunction="PIN8" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U101-Pad12)">
+      <node ref="U101" pin="12" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U101-Pad13)">
+      <node ref="U101" pin="13" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U101-Pad21)">
+      <node ref="U101" pin="21" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U101-Pad22)">
+      <node ref="U101" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U101-Pad23)">
+      <node ref="U101" pin="23" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U101-Pad24)">
+      <node ref="U101" pin="24" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U102-Pad16)">
+      <node ref="U102" pin="16" pinfunction="TOUT" pintype="input+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U201-Pad1)">
+      <node ref="U201" pin="1" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U201-Pad2)">
+      <node ref="U201" pin="2" pinfunction="~{RI}/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U201-Pad10)">
+      <node ref="U201" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U201-Pad11)">
+      <node ref="U201" pin="11" pinfunction="~{SUSPEND}" pintype="output+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U201-Pad12)">
+      <node ref="U201" pin="12" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U201-Pad14)">
+      <node ref="U201" pin="14" pinfunction="CHR1" pintype="output+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U201-Pad16)">
+      <node ref="U201" pin="16" pinfunction="~{WAKEUP}/GPIO.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U201-Pad17)">
+      <node ref="U201" pin="17" pinfunction="RS485/GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U201-Pad20)">
+      <node ref="U201" pin="20" pinfunction="GPIO.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U201-Pad21)">
+      <node ref="U201" pin="21" pinfunction="GPIO.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U201-Pad22)">
+      <node ref="U201" pin="22" pinfunction="GPIO.4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U201-Pad23)">
+      <node ref="U201" pin="23" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U201-Pad27)">
+      <node ref="U201" pin="27" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U203-Pad4)">
+      <node ref="U203" pin="4" pinfunction="~{OUT}" pintype="output+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U204-Pad1)">
+      <node ref="U204" pin="1" pinfunction="VAC" pintype="power_in+no_connect"/>
+    </net>
+    <net code="87" name="~{EN}">
+      <node ref="C107" pin="1" pintype="passive"/>
+      <node ref="Q201" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="U102" pin="2" pinfunction="EN" pintype="input"/>
+    </net>
+  </nets>
+</export>
